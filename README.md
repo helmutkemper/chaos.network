@@ -1,2 +1,5 @@
 # chaos.network
-This code is user in chaos project https://github.com/helmutkemper/chaos
+
+This code is part of the chaos (failure) testing project for microservices
+
+[https://github.com/helmutkemper/chaos](https://github.com/helmutkemper/chaos)
