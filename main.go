@@ -102,7 +102,7 @@ func main() {
 
 	fmt.Printf("\nListening: %v\nProxying: %v\n\n", localPortString, remoteContainerString)
 
-	var p networkdelay.ParserInterface = &ParserChaosFunc{}
+	var p networkdelay.ParserInterface = &ParserFunc{}
 
 	var proxy networkdelay.Proxy
 	proxy.SetBufferSize(int(bufferSize))
